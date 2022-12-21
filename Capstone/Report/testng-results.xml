@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-21T12:56:24 CST" name="Elements Tests" finished-at="2022-12-21T12:56:33 CST" duration-ms="9258">
+    <groups>
+      <group name="RegressionSuite">
+        <method signature="RunTest.TestCartItems()[pri:3, instance:RunTest@704b2127]" name="TestCartItems" class="RunTest"/>
+      </group> <!-- RegressionSuite -->
+    </groups>
+    <test started-at="2022-12-21T12:56:24 CST" name="/Users/danny/IdeaProjects/Capstone" finished-at="2022-12-21T12:56:33 CST" duration-ms="9258">
+      <class name="RunTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:RunTest@704b2127]" started-at="2022-12-21T12:56:24 CST" name="beforeMethod" finished-at="2022-12-21T12:56:27 CST" duration-ms="2569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCartItems()[pri:3, instance:RunTest@704b2127]" started-at="2022-12-21T12:56:27 CST" name="TestCartItems" description="Testing SR-12130,where the system must show List of items,Total of items prices and Place order button" finished-at="2022-12-21T12:56:33 CST" duration-ms="6211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCartItems -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:RunTest@704b2127]" started-at="2022-12-21T12:56:33 CST" name="afterTest" finished-at="2022-12-21T12:56:33 CST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- RunTest -->
+    </test> <!-- /Users/danny/IdeaProjects/Capstone -->
+  </suite> <!-- Elements Tests -->
+</testng-results>

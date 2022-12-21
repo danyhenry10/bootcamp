@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Elements Tests]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="/Users/danny/IdeaProjects/Capstone(failed)">
+    <groups>
+      <run>
+        <include name="RegressionSuite"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="RunTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="TestCartItems"/>
+        </methods>
+      </class> <!-- RunTest -->
+    </classes>
+  </test> <!-- /Users/danny/IdeaProjects/Capstone(failed) -->
+</suite> <!-- Failed suite [Elements Tests] -->
